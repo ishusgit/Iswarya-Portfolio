@@ -942,7 +942,7 @@ h1 {
   width: 30%;
   opacity:0.6;
   height: 78%;
-  background: url('https://raw.githubusercontent.com/ishusgit/Iswarya-Portfolio/assets/portfolio_images/theme-colors-vector-left.png') no-repeat center center;
+  background: url('https://ishusgit.github.io/Iswarya-Portfolio/assets/portfolio_images/theme-colors-vector-left.png') no-repeat center center;
   background-size: cover;
   z-index: 1;
 }
@@ -954,7 +954,7 @@ h1 {
   width: 30%;
   opacity:0.6;
   height: 78%;
-  background: url('https://raw.githubusercontent.com/ishusgit/Iswarya-Portfolio/assets/portfolio_images/theme-colors-vector-right.png') no-repeat center center;
+  background: url('https://ishusgit.github.io/Iswarya-Portfolio/assets/portfolio_images/theme-colors-vector-right.png') no-repeat center center;
   background-size: cover;
   z-index: 1;
 }
@@ -1013,7 +1013,7 @@ h1 {
   background:none!important;
 }
 .service-card:hover{
-  background: url("https://raw.githubusercontent.com/ishusgit/Iswarya-Portfolio/assets/portfolio_images/pink\ with\ blue\ img.JPG") no-repeat center center;
+  background: url("https://ishusgit.github.io/Iswarya-Portfolio/assets/portfolio_images/pink\ with\ blue\ img.JPG") no-repeat center center;
   background-size: cover;
 }
 .service-card:hover h4{
@@ -1023,7 +1023,7 @@ h1 {
   color:white;
 } 
 .service-first-card{
-  background: url("https://raw.githubusercontent.com/ishusgit/Iswarya-Portfolio/assets/portfolio_images/pink\ with\ blue\ img.JPG") no-repeat center center;
+  background: url("https://ishusgit.github.io/Iswarya-Portfolio/assets/portfolio_images/pink\ with\ blue\ img.JPG") no-repeat center center;
   background-size: cover;
 }
 .service-first-card .icon-container{
@@ -1608,7 +1608,7 @@ background:#603e97;
 
 /* Footer Styling */
 .footer {
-  background: url('https://raw.githubusercontent.com/ishusgit/Iswarya-Portfolio/assets/portfolio_images/violet-purple-img.JPG') no-repeat center center;
+  background: url('https://ishusgit.github.io/Iswarya-Portfolio/assets/portfolio_images/violet-purple-img.JPG') no-repeat center center;
   background-size: cover;
   color: #fff;
   padding: 30px 20px 20px;
