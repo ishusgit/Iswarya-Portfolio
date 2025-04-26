@@ -1831,7 +1831,8 @@ background:#603e97;
 /**media queries**/
 @media screen and (max-width:575.98px){
   .navbar{
-    background:rgb(90, 0, 154);
+    background:#6A0DAD;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   }
   .navbar-brand{
     font-size:1rem!important;

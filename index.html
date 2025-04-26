@@ -1047,6 +1047,22 @@ window.addEventListener("scroll", function () {
       behavior: "smooth"
     });
   });
+
+  //navbar-collapse closing while going to corresponding section
+  document.addEventListener('DOMContentLoaded', function () {
+    var navbarCollapse = document.querySelector('.navbar-collapse');
+    var navLinks = document.querySelectorAll('.navbar-collapse .nav-link:not(.dropdown-toggle)');
+
+    navLinks.forEach(function (link) {
+      link.addEventListener('click', function () {
+        if (window.getComputedStyle(navbarCollapse).display !== 'none') {
+          new bootstrap.Collapse(navbarCollapse).hide();
+        }
+      });
+    });
+  });
+
+
 </script>
 
 
