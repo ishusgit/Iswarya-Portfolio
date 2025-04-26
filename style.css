@@ -8,7 +8,7 @@
 /*open sans*/
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /*dancing fonts*/
-/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@900&display=swap');
 
 
 **{
@@ -46,19 +46,6 @@ body, html {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Optional: nice little shadow */
   /* height:80px;
   margin-top:0px!important; */
-}
-@media screen and (min-width: 992px) {
-  #mainNavbar.scrolled {
-    background: linear-gradient(135deg, #6A0DAD, #FF4081);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    height: 80px;
-    margin-top: 0px !important;
-  }
-  #mainNavbar{
-    z-index: 999;
-    background-color: transparent;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  }
 }
 .navbar-brand {
   font-size:1.2rem;
@@ -2284,8 +2271,21 @@ background:#603e97;
   }
 }
 
+@media screen and (min-width: 992px) {
+  #mainNavbar.scrolled {
+    background: linear-gradient(135deg, #6A0DAD, #FF4081);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    height: 80px;
+    margin-top: 0px !important;
+  }
+  #mainNavbar{
+    z-index: 999;
+    background-color: transparent;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+}
+
 @media screen and (min-width:992px) and (max-width:1199.98px){
- 
   .hero-section h1{
     font-size:2.3rem;
   }
