@@ -1062,6 +1062,21 @@ window.addEventListener("scroll", function () {
     });
   });
 
+// navbar-toggler-icon closes itself
+  document.addEventListener('DOMContentLoaded', function () {
+    var navbarCollapse = document.querySelector('.navbar-collapse');
+    var navLinks = document.querySelectorAll('.navbar-collapse .nav-link');
+
+    navLinks.forEach(function (link) {
+      link.addEventListener('click', function () {
+        var bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+          toggle: false
+        });
+        bsCollapse.hide();
+      });
+    });
+  });
+
 
 </script>
 
