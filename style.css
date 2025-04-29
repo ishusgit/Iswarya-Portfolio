@@ -1128,9 +1128,19 @@ h1 {
   clip-path: polygon(0 0, 100% 50%, 0 100%);
   cursor: pointer;
   transition: transform 0.3s ease;
+  animation: moveArrow 1s infinite alternate ease-in-out;
 }
 .service-arrow:hover {
   transform: translateX(3px);
+}
+/* Keyframe for the left-right movement */
+@keyframes moveArrow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(6px);
+  }
 }
 .service-cards{
   position:relative;
@@ -1163,7 +1173,7 @@ h1 {
 }
 .tooltip-container {
   position: absolute;
-  z-index: 99999!important;
+  z-index: 109999!important;
   right:-20px;
   bottom:40px;
   max-width: 230px;
