@@ -65,6 +65,13 @@ body, html {
   font-size:0.9rem;
   font-weight:500;
   font-family: "Poppins", serif;
+  transition:all 0.3s ease-in-out;
+}
+.nav-item .nav-link:hover{
+  color:rgb(5, 5, 5)!important;
+  border:none;
+  background:rgb(255, 207, 229);
+  border-radius:5px;
 }
 .btns .btn-success{
   background: linear-gradient(135deg, #FF4081, #6A0DAD)!important;
