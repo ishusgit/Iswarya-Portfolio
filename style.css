@@ -1833,6 +1833,11 @@ background:#603e97;
 
 /* Responsive */
 /**media queries**/
+@media screen and (max-width:991px){
+  .nav-item .nav-link:hover{
+    padding:10px 12px!important;
+  }
+}
 @media screen and (max-width:575.98px){
   .navbar{
     background:#6A0DAD;
