@@ -51,9 +51,9 @@ body, html {
 }
 .navbar-brand {
   font-size:1.2rem;
-  font-weight: normal!important;
-  /* font-family: "Dancing Script", cursive!important; */
-  font-family: 'Pacifico', cursive;
+  font-weight: 700!important;
+  font-family: "Dancing Script", cursive!important;
+  /* font-family: 'Pacifico', cursive; */
   background: linear-gradient(135deg,#00E1FF, #ffd700,#FF4081); /* Gradient */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
