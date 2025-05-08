@@ -13,6 +13,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--font-family link-->
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!--AOS Animations link-->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -57,7 +59,7 @@
     <div class="container">
         <div class="row align-items-start align-items-md-center align-items-lg-start">
             <!-- Left Side Content -->
-            <div class="col-lg-6 text-center text-lg-start my-sm-2 mt-md-4 my-lg-0">
+            <div class="col-lg-6 text-center text-lg-start my-sm-2 mt-md-4 my-lg-0 left-content animate-left">
                 <h6 class="hello ms-xl-5">Hello, &#128075;</h6>
                 <h1 class="ms-xl-5">I am <span class="highlight">ISWARYA</span></h1>
                 <h3 class="sub-heading ms-xl-5">
@@ -73,7 +75,7 @@
             </div>
 
             <!-- Right Side Image -->
-            <div class="col-lg-5 mt-5 mt-md-2 mt-lg-0 position-relative text-center d-none d-md-block">
+            <div class="col-lg-5 mt-5 mt-md-2 mt-lg-0 position-relative text-center d-none d-md-block right-image animate-right">
                 <div class="image-container">
                     <img src="./assets/portfolio_images/option-5-removebg-preview.png" alt="Girl with Laptop" class="hero-img">
                     <div class="floating-btn web-designer">🖥️ Web Designer</div>
@@ -99,14 +101,14 @@
     <div class="row align-items-center justify-content-center">    
       <!-- one row: Image with Animated Gradient Border -->
       <div class="col-lg-6 text-center position-relative mt-md-5 mt-lg-0">
-        <div class="about-image-container mt-md-5 mt-lg-0">
+        <div class="about-image-container mt-md-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
           <img src="./assets/portfolio_images/option-4-removebg-preview.png" class="about-img">
         </div>
         </div>
     </div>
     <div class="row align-items-center align-items-lg-start justify-content-lg-center mt-5"> 
         <!-- 2nd row: About Content -->
-      <div class="col-lg-5 offset-lg-1 col-sm-10 offset-sm-1">
+      <div class="col-lg-5 offset-lg-1 col-sm-10 offset-sm-1" data-aos="zoom-in" data-aos-delay="400">
         <h2 class="about-subheading">I'm a Web Designer</h2>
         <h1 class="about-heading lh-base">I Can Build Your Website Better with Creative Themes!</h1>
         <p class="about-description">
@@ -148,7 +150,7 @@
       <!--certificates-->
 
      </div>
-    <div class="col-lg-6 offset-lg-0 mt-5 mt-lg-0">
+    <div class="col-lg-6 offset-lg-0 mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
       <h4 class="academic mt-lg-0 mt-xl-5 mt-0">Academic Background</h4>
       <div class="timeline">
         <div class="timeline-item">
@@ -201,9 +203,9 @@
 
   <!--certifications-->
 <section class="certificates mt-5 py-lg-4" id="certificates">
-  <h3 class="certificate-heading">Certifications</h3>
+  <h3 class="certificate-heading" data-aos="fade-up" data-aos-delay="800">Certifications</h3>
   <div class="grid-container mt-4 mt-lg-5">
-    <div class="certificate-card" onclick="openModal('./assets/portfolio_images/ui_ux_design_certificate-1.jpeg', 'Certification in Web Design', 'Issued by UDEMY, March 2022')">
+    <div class="certificate-card" data-aos="zoom-in" data-aos-delay="0" onclick="openModal('./assets/portfolio_images/ui_ux_design_certificate-1.jpeg', 'Certification in Web Design', 'Issued by UDEMY, March 2022')">
         <img src="./assets/portfolio_images/ui_ux_design_certificate-1.jpeg" alt="Certificate 1" style="height:150px;">
         <div class="certificate-details mt-2">
             <h3>Web Design Certification</h3>
@@ -212,7 +214,7 @@
         </div>
     </div>
   
-    <div class="certificate-card" onclick="openModal('./assets/portfolio_images/ui-ux-design-certificate-2.jpeg', 'Certification in UI/UX Designing', 'Issued by LEARNERS POINT ACADEMY, Dubai, July 2023')">
+    <div class="certificate-card" data-aos="zoom-in" data-aos-delay="300" onclick="openModal('./assets/portfolio_images/ui-ux-design-certificate-2.jpeg', 'Certification in UI/UX Designing', 'Issued by LEARNERS POINT ACADEMY, Dubai, July 2023')">
         <img src="./assets/portfolio_images/ui-ux-design-certificate-2.jpeg" alt="Certificate 2" style="height:150px;">
         <div class="certificate-details">
             <h3>UI/UX Designing Certification</h3>
@@ -221,7 +223,7 @@
         </div>
     </div>
   
-    <div class="certificate-card" onclick="openModal('./assets/portfolio_images/javascript-certificate.jpg', 'Certification in JavaScript', 'Issued by UDEMY, January 2024')">
+    <div class="certificate-card" data-aos="zoom-in" data-aos-delay="600" onclick="openModal('./assets/portfolio_images/javascript-certificate.jpg', 'Certification in JavaScript', 'Issued by UDEMY, January 2024')">
         <img src="./assets/portfolio_images/javascript-certificate.jpg" alt="Certificate 3" style="height:150px; width:300px;">
         <div class="certificate-details">
             <h3>JavaScript Certification</h3>
@@ -230,7 +232,7 @@
         </div>
     </div>
   
-    <div class="certificate-card" onclick="openModal('./assets/portfolio_images/bootstrap-certificate.jpg', 'Certification in Bootstrap', 'Issued by UDEMY, May 2024')">
+    <div class="certificate-card" data-aos="zoom-in" data-aos-delay="900" onclick="openModal('./assets/portfolio_images/bootstrap-certificate.jpg', 'Certification in Bootstrap', 'Issued by UDEMY, May 2024')">
         <img src="./assets/portfolio_images/bootstrap-certificate.jpg" alt="Certificate 4" style="height:150px;">
         <div class="certificate-details">
             <h3>Bootstrap Certification</h3>
@@ -241,11 +243,11 @@
   </div>
   
   <!-- Modal for full view -->
-  <div class="modal" id="certificateModal">
+  <div class="modal" id="certificateModal" data-aos="zoom-in" data-aos-delay="300">
     <div class="bubbles bubbles-bottom-left"></div>
     <div class="bubbles bubbles-top-right"></div>
     
-    <div class="modal-content">
+    <div class="modal-content" data-aos="zoom-in" data-aos-delay="300">
         <span class="close-btn" onclick="closeModal()">&times;</span>
         <h2 id="modal-title"></h2>
         <img id="modal-image" src="" alt="Certificate">
@@ -271,11 +273,11 @@
   <div class="row align-items-center">
       <div class="col-lg-12 offset-lg-0 services-section-content align-items-center justify-content-center d-flex">
          <div class="services-section-content-headings col-lg-4 offset-lg-0 col-xl-3 offset-xl-1 col-10 offset-0 col-sm-9 d-md-flex justify-content-md-between justify-content-lg-start flex-lg-column col-md-10">
-          <div class="col-md-6 col-lg-12">
+          <div class="col-md-6 col-lg-12" data-aos="fade-down" data-aos-delay="300">
           <h2>My Services</h2>
           <p>"I offer professional custom web design and e-commerce websites with innovative designs and seamless functionality for your brand"</p>
           </div>
-          <div class="col-md-5 col-lg-11 mt-5 mt-md-0 mt-lg-4 col-11 mx-auto">
+          <div class="col-md-5 col-lg-11 mt-5 mt-md-0 mt-lg-4 col-11 mx-auto" data-aos="flip-left" data-aos-delay="0">
             <div class="service-card h-100">
               <div class="icon-container">
                   <i class="fas fa-code fa-2x"></i>
@@ -300,7 +302,7 @@
         </div>
         </div>
           <div class="services-cards col-9 offset-0 col-sm-10 col-lg-7 offset-lg-0 offset-xl-1 col-xl-6 d-sm-flex flex-sm-wrap mt-4 mt-sm-5 mt-lg-0 justify-content-sm-center align-items-sm-center">
-              <div class="col-md-5 me-lg-3 me-0 col-sm-5">
+              <div class="col-md-5 me-lg-3 me-0 col-sm-5" data-aos="flip-left" data-aos-delay="250">
                 <div class="service-card h-100">
                   <div class="icon-container">
                       <i class="fas fa-paint-brush fa-2x"></i>
@@ -323,7 +325,7 @@
                   <span class="service-arrow"></span>
               </div>
               </div>
-              <div class="col-md-5 mt-4 mt-sm-0 col-sm-5 offset-sm-1">
+              <div class="col-md-5 mt-4 mt-sm-0 col-sm-5 offset-sm-1" data-aos="flip-left" data-aos-delay="450">
                 <div class="service-card h-100 service-first-card">
                   <div class="icon-container">
                       <i class="fas fa-laptop-code fa-2x"></i>
@@ -346,7 +348,7 @@
                   <span class="service-arrow"></span>
               </div>
               </div>
-              <div class="col-md-5 me-lg-3 me-0 mt-4 mt-sm-5 col-sm-5">
+              <div class="col-md-5 me-lg-3 me-0 mt-4 mt-sm-5 col-sm-5" data-aos="flip-left" data-aos-delay="650">
                 <div class="service-card h-100">
                   <div class="icon-container">
                       <i class="fas fa-shopping-cart fa-2x"></i>
@@ -369,7 +371,7 @@
                   <span class="service-arrow"></span>
               </div>
               </div>
-              <div class="col-md-5 mt-4 mt-sm-5 col-sm-5 offset-sm-1">
+              <div class="col-md-5 mt-4 mt-sm-5 col-sm-5 offset-sm-1" data-aos="flip-left" data-aos-delay="850">
                 <div class="service-card h-100">
                   <div class="icon-container">
                     <i class="fas fa-tools fa-2x"></i>
@@ -400,15 +402,15 @@
 <!--projects-->
 <section class="projects mb-5" id="projects">
   <div class="container pb-5 pt-lg-5 pt-4">
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
     <button class="btn border border-0"><h5 class="text-center mb-3 project">My Projects</h5></button>
     </div>
-    <h3 class="text-center mb-5">Some of My Works</h3>
+    <h3 class="text-center mb-5" data-aos="fade-up" data-aos-delay="200">Some of My Works</h3>
     <div class="row d-flex justify-content-center align-items-center">
       <div class="col-lg-12 offset-lg-0 col-sm-12">
     <div class="row d-flex justify-content-center align-items-center flex-sm-wrap">
         <!-- Project Cards -->
-        <div class="col-md-4 col-lg-3 mb-5 col-8 col-sm-6">
+        <div class="col-md-4 col-lg-3 mb-5 col-8 col-sm-6" data-aos="zoom-in" data-aos-delay="0">
           <article class="card" data-bs-toggle="modal" data-bs-target="#projectModal"  data-site="https://ishusgit.github.io/AGP-WEBSITE---Copy/" data-title="Aggressive Polymer" 
             onclick="openProject('Aggressive Polymer', 'https://ishusgit.github.io/AGP-WEBSITE---Copy/')">
             <div class="card-image">
@@ -451,7 +453,7 @@
           </article>
         </div>
       
-        <div class="col-md-4 col-lg-3 mb-5 col-8 col-sm-6">
+        <div class="col-md-4 col-lg-3 mb-5 col-8 col-sm-6" data-aos="zoom-in" data-aos-delay="250">
             <!-- <article class="card" data-site="https://ishusgit.github.io/Tasty-Food-Palette-Website-BOOTSTRAP/index.html" data-title="TASTYFood Palatte restaurant" data-bs-toggle="modal" data-bs-target="#projectModal" onclick="openProject('TastyFood Palette', 'https://ishusgit.github.io/Tasty-Food-Palette-Website-BOOTSTRAP/index.html')"> -->
               <article class="card" data-site="https://tastyfoodpalette.netlify.app" data-title="TASTYFood Palatte restaurant" data-bs-toggle="modal" data-bs-target="#projectModal" onclick="openProject('TastyFood Palette', 'https://tastyfoodpalette.netlify.app')">
               <div class="card-image">
@@ -490,7 +492,7 @@
               </article>
         </div>
 
-        <div class="col-md-4 col-lg-3 mb-5 col-8 col-sm-6">
+        <div class="col-md-4 col-lg-3 mb-5 col-8 col-sm-6" data-aos="zoom-in" data-aos-delay="550">
             <!-- <article class="card" data-site="https://ishusgit.github.io/BookFabel-Space-Website--SASS/" data-title="BookFabel Space" data-bs-toggle="modal" data-bs-target="#projectModal" onclick="openProject('BookFabel Space', 'https://ishusgit.github.io/BookFabel-Space-Website--SASS/')"> -->
               <article class="card" data-site="https://bookfabelspace.netlify.app" data-title="BookFabel Space" data-bs-toggle="modal" data-bs-target="#projectModal" onclick="openProject('BookFabel Space', 'https://bookfabelspace.netlify.app')"> 
               <div class="card-image">
@@ -531,7 +533,7 @@
               </article>
         </div>
 
-        <div class="col-md-4 col-lg-3 mb-5 col-8 col-sm-6">
+        <div class="col-md-4 col-lg-3 mb-5 col-8 col-sm-6" data-aos="zoom-in" data-aos-delay="850">
           <!-- <article class="card" data-site="https://ishusgit.github.io/Dessert-World-Website/" data-title="Dessert World" data-bs-toggle="modal" data-bs-target="#projectModal" onclick="openProject('Dessert World', 'https://ishusgit.github.io/Dessert-World-Website/')"> -->
             <article class="card" data-site="https://dessertworld.netlify.app" data-title="Dessert World" data-bs-toggle="modal" data-bs-target="#projectModal" onclick="openProject('Dessert World', 'https://dessertworld.netlify.app')">
             <div class="card-image">
@@ -569,7 +571,7 @@
             </article>
         </div>
 
-        <div class="col-md-4 col-lg-3 mb-5 col-8 col-sm-6">
+        <div class="col-md-4 col-lg-3 mb-5 col-8 col-sm-6" data-aos="zoom-in" data-aos-delay="1150">
         <!-- <article class="card" data-site="https://ishusgit.github.io/Women-s-WatchBar/" data-title="Women's WatchBar" data-bs-toggle="modal" data-bs-target="#projectModal" onclick="openProject('Womens WatchBar', 'https://ishusgit.github.io/Women-s-WatchBar/')"> -->
           <article class="card" data-site="https://womenswatchbar.netlify.app" data-title="Women's WatchBar" data-bs-toggle="modal" data-bs-target="#projectModal" onclick="openProject('Womens WatchBar', 'https://womenswatchbar.netlify.app')">
           <div class="card-image">
@@ -610,7 +612,7 @@
           </article>
         </div>
 
-        <div class="col-md-4 col-lg-3 mb-5 col-8 col-sm-6">
+        <div class="col-md-4 col-lg-3 mb-5 col-8 col-sm-6" data-aos="zoom-in" data-aos-delay="1350">
       <!-- <article class="card" data-site="https://ishusgit.github.io/Lovely-Fashion-Women/" data-title="Lovely Fashion Women" data-bs-toggle="modal" data-bs-target="#projectModal" onclick="openProject('Lovely Fashion', 'https://ishusgit.github.io/Lovely-Fashion-Women/')"> -->
         <article class="card" data-site="https://lovelyfashionwomen.netlify.app" data-title="Lovely Fashion Women" data-bs-toggle="modal" data-bs-target="#projectModal" onclick="openProject('Lovely Fashion', 'https://lovelyfashionwomen.netlify.app')">
         <div class="card-image">
@@ -652,7 +654,7 @@
         </div>
 
    <!-- Figma Project Card -->
-      <div class="col-md-4 col-lg-3 mb-5 col-8 col-sm-6">
+      <div class="col-md-4 col-lg-3 mb-5 col-8 col-sm-6" data-aos="zoom-in" data-aos-delay="1600">
   <article class="card">
     <div class="card-image">
       <img src="./assets/portfolio_images/Vibrella Cosmetic App.png" class="card-img-top" alt="Cosmetics App UI">
@@ -680,7 +682,7 @@
 </section>
 
 <!-- Modal for Figma Preview -->
-<div class="modal fade" id="figmaProjectModal" tabindex="-1" aria-labelledby="figmaProjectModalLabel" aria-hidden="true">
+<div class="modal fade" data-aos="fade-up" data-aos-delay="300" id="figmaProjectModal" tabindex="-1" aria-labelledby="figmaProjectModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -696,7 +698,7 @@
 </div>
 
 <!--modal for projects section-->
-<div class="modal fade" id="projectModal" tabindex="-1" aria-hidden="true" aria-modal="true">
+<div class="modal fade" id="projectModal" tabindex="-1" aria-hidden="true" aria-modal="true" data-aos="fade-up" data-aos-delay="300">
   <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
     <div class="modal-content p-3">
       <div class="modal-header d-lg-flex justify-content-lg-center align-items-lg-center">
@@ -762,14 +764,14 @@
   <div class="row">
 <div class="footer-container col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
     <!-- Branding & About -->
-    <div class="footer-brand col-lg-4">
+    <div class="footer-brand col-lg-4" data-aos="fade-up" data-aos-delay="200">
         <h2>Iswarya</h2>
         <h4>Creative Web Designer | Front-End Developer | Freelancer</h4>
         <p>I have a passion for Web Design and UI/UX Specialize in creating beautiful and user-friendly mobile responsive websites that improve brand identity. As a freelancer, I help businesses build a good online presence through creativity and functionality</p>
     </div>
 
     <!-- Quick Links -->
-    <div class="footer-links col-lg-4 mt-5 mt-lg-0">
+    <div class="footer-links col-lg-4 mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
         <h3>Quick Links</h3>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -781,7 +783,7 @@
     </div>
 
     <!-- Contact Form (Placed above footer) -->
-    <div class="footer-contact col-lg-4 mt-5 mt-lg-0">
+    <div class="footer-contact col-lg-4 mt-5 mt-lg-0" data-aos="fade-down" data-aos-delay="200">
   <h3>Contact Me</h3>
   <form id="contact-form">
     <input type="text" name="name" placeholder="Your Name" required>
@@ -798,7 +800,7 @@
 </div>
 </div>
 <!-- Social Links -->
- <div class="row mt-4 mt-lg-0 mb-4 mb-lg-0">
+ <div class="row mt-4 mt-lg-0 mb-4 mb-lg-0" data-aos="flip-left" data-aos-delay="235">
 <div class="footer-social col-12">
   <a href="mailto:agamithraishu03@gmail.com" target="_blank">
     <i class="fas fa-envelope"></i>Email:<span class="f6 text-white"> agamithraishu03@gmail.com</span>
@@ -820,12 +822,12 @@
 </div>
 
 <!-- Back to Top Button -->
-<button id="backToTop" title="Back to Top">
+<button id="backToTop" title="Back to Top" data-aos="zoom-in" data-aos-delay="200">
   <i class="fas fa-angle-double-up"></i>
 </button>
 
 <!-- WhatsApp Floating Button -->
-<a href="https://wa.me/6282245555723" class="whatsapp-float" target="_blank">
+<a href="https://wa.me/6282245555723" class="whatsapp-float" target="_blank" data-aos="zoom-in" data-aos-delay="200">
   <i class="fab fa-whatsapp"></i>
 </a>
 
@@ -1087,6 +1089,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true, // animation happens only once
+    duration: 1200, // SLOWER animation duration (in ms)
+    offset: 100,    // Trigger a bit before element enters view
+    easing: 'ease-in-out', // Smooth easing function
+  });
+</script>
 
 
   <script src="script.js"></script>
