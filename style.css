@@ -52,7 +52,7 @@ body, html {
 .navbar-brand {
   font-size:1.2rem;
   font-weight: 700!important;
-  font-family: "Dancing Script", cursive!important;
+  font-family: 'Great Vibes', cursive;
   /* font-family: 'Pacifico', cursive; */
   background: linear-gradient(135deg,#00E1FF, #ffd700,#FF4081); /* Gradient */
   -webkit-background-clip: text;
