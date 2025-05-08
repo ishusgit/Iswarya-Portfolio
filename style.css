@@ -11,8 +11,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 
-
-
 **{
   margin:0;
   padding:0;
@@ -51,9 +49,8 @@ body, html {
 }
 .navbar-brand {
   font-size:1.2rem;
-  font-weight: 700!important;
-  font-family: 'Great Vibes', cursive;
-  /* font-family: 'Pacifico', cursive; */
+  font-weight: normal!important;
+  font-family: 'Pacifico', cursive;
   background: linear-gradient(135deg,#00E1FF, #ffd700,#FF4081); /* Gradient */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
